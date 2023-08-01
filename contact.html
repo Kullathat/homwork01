@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .row {
+            border: 1px solid black ;
+            margin: 20px;
+            padding: 20px;
+        }
+        .box {
+            width: 1000px;
+            height: 150px   }
+        .area , select, textarea {
+            width: 75%;
+        }
+        textarea {
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <nav>
+        <a href="index.html">Home |</a>
+        <a href="education.html">My Education |</a>
+        <a href="work.html">My Experience |</a>
+        <a href="contact.html">My Contact |</a>
+    </nav>
+    <hr>
+    <h1>Contact Me</h1>
+    <div class="row">
+        <table>
+        <p>Enter your info.</p>
+
+            <form>
+                <label>Your name:</label><br>
+                <input class="area" type="text"laceholder="Name"><br><br>
+                <label>Your E-mail:</label><br>
+                <input class="area"  type="text"><br><br>
+                <label>gender</label><br>
+                <select id="gender" name="gender">
+                    <option value="select">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+                <label>Message</label><br>  
+                <textarea ></textarea><br><br>
+                <input  type="submit" value="Send"> 
+                <input  type="submit" value="Clear">
+            </form>
+        
+      </tr>
+    </div>
+</table>
+</body>
+</html>
